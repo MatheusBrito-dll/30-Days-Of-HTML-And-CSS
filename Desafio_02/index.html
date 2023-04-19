@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        * {
+            font-family: system-ui;
+        }
+
+        .corpo-global {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+            margin: 0;
+        }
+
+        .tabela-global {
+            border-collapse: collapse;
+            border: 1px solid #FFBD00;
+
+        }
+
+        .titulo-tabela-dentro {
+            padding: 8px;
+            background-color: #FFBD00;
+            height: 30px;
+        }
+
+        .subtitulo-tabela {
+            background-color: #FFE69D;
+            height: 30px;
+        }
+
+        .item-corpo {
+            text-align: center;
+        }
+
+        .item-corpo-total {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="corpo-global">
+    <table class="tabela-global" border="1">
+        <thead class="titulo-tabela">
+            <th class="titulo-tabela-dentro" colspan="2">Distribuição das notas<br>da prova de Matemática</th>
+        </thead>
+        <thead class="subtitulo-tabela">
+            <th class="subtitulo-tabela-dentro">Notas</th>
+            <th class="subtitulo-tabela-dentro">Frequência</th>
+        </thead>
+        <tbody class="corpo">
+            <tr class="item-corpo">
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr class="item-corpo">
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr class="item-corpo">
+                <td>5</td>
+                <td>8</td>
+            </tr>
+            <tr class="item-corpo">
+                <td>6</td>
+                <td>8</td>
+            </tr>
+            <tr class="item-corpo">
+                <td>7</td>
+                <td>6</td>
+            </tr>
+            <tr class="item-corpo">
+                <td>8</td>
+                <td>2</td>
+            </tr>
+            <tr class="item-corpo-total">
+                <td>Total</td>
+                <td>32</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
